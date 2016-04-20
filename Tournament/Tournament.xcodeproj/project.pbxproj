@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179848BD1BECAAEA00E43C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 179848BC1BECAAEA00E43C79 /* main.m */; };
+		179848C01BECAAEA00E43C79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 179848BF1BECAAEA00E43C79 /* AppDelegate.m */; };
+		179848C81BECAAEA00E43C79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179848C71BECAAEA00E43C79 /* Images.xcassets */; };
+		179848D71BECAAEA00E43C79 /* TournamentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 179848D61BECAAEA00E43C79 /* TournamentTests.m */; };
+		179848E71BECABC700E43C79 /* LeaderBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 179848E61BECABC700E43C79 /* LeaderBoardViewController.m */; };
+		17AF93421BECB15F00ABB887 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF93411BECB15F00ABB887 /* Player.m */; };
+		17AF93451BECBEC400ABB887 /* AddRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF93441BECBEC400ABB887 /* AddRecordViewController.m */; };
+		B1AA09CEF2ECA285FDEE1421 /* libPods-Tournament.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD9CF6A78B028303FCC296B /* libPods-Tournament.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		179848D11BECAAEA00E43C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179848AF1BECAAEA00E43C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179848B61BECAAEA00E43C79;
+			remoteInfo = Tournament;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179848B71BECAAEA00E43C79 /* Tournament.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tournament.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		179848BB1BECAAEA00E43C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179848BC1BECAAEA00E43C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		179848BE1BECAAEA00E43C79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		179848BF1BECAAEA00E43C79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		179848C71BECAAEA00E43C79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		179848D01BECAAEA00E43C79 /* TournamentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TournamentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179848D51BECAAEA00E43C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179848D61BECAAEA00E43C79 /* TournamentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TournamentTests.m; sourceTree = "<group>"; };
+		179848E51BECABC700E43C79 /* LeaderBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderBoardViewController.h; sourceTree = "<group>"; };
+		179848E61BECABC700E43C79 /* LeaderBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderBoardViewController.m; sourceTree = "<group>"; };
+		17AF93401BECB15F00ABB887 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		17AF93411BECB15F00ABB887 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		17AF93431BECBEC400ABB887 /* AddRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRecordViewController.h; sourceTree = "<group>"; };
+		17AF93441BECBEC400ABB887 /* AddRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRecordViewController.m; sourceTree = "<group>"; };
+		303160A7FB29665802E8DD4F /* Pods-Tournament.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tournament.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tournament/Pods-Tournament.debug.xcconfig"; sourceTree = "<group>"; };
+		B8137B8E125BD2DD99747D64 /* Pods-Tournament.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tournament.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tournament/Pods-Tournament.release.xcconfig"; sourceTree = "<group>"; };
+		DCD9CF6A78B028303FCC296B /* libPods-Tournament.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tournament.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179848B41BECAAEA00E43C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AA09CEF2ECA285FDEE1421 /* libPods-Tournament.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179848CD1BECAAEA00E43C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179848AE1BECAAEA00E43C79 = {
+			isa = PBXGroup;
+			children = (
+				179848B91BECAAEA00E43C79 /* Tournament */,
+				179848D31BECAAEA00E43C79 /* TournamentTests */,
+				179848B81BECAAEA00E43C79 /* Products */,
+				87B976ED78361AD97F7BA88C /* Pods */,
+				318FF3CA8BEFAFE40B734BEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		179848B81BECAAEA00E43C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179848B71BECAAEA00E43C79 /* Tournament.app */,
+				179848D01BECAAEA00E43C79 /* TournamentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179848B91BECAAEA00E43C79 /* Tournament */ = {
+			isa = PBXGroup;
+			children = (
+				179848BE1BECAAEA00E43C79 /* AppDelegate.h */,
+				179848BF1BECAAEA00E43C79 /* AppDelegate.m */,
+				179848E21BECAAFE00E43C79 /* Model */,
+				179848E11BECAAF900E43C79 /* View Controllers */,
+				179848E01BECAAF400E43C79 /* Views */,
+				179848C71BECAAEA00E43C79 /* Images.xcassets */,
+				179848BA1BECAAEA00E43C79 /* Supporting Files */,
+			);
+			path = Tournament;
+			sourceTree = "<group>";
+		};
+		179848BA1BECAAEA00E43C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				179848BB1BECAAEA00E43C79 /* Info.plist */,
+				179848BC1BECAAEA00E43C79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		179848D31BECAAEA00E43C79 /* TournamentTests */ = {
+			isa = PBXGroup;
+			children = (
+				179848D61BECAAEA00E43C79 /* TournamentTests.m */,
+				179848D41BECAAEA00E43C79 /* Supporting Files */,
+			);
+			path = TournamentTests;
+			sourceTree = "<group>";
+		};
+		179848D41BECAAEA00E43C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				179848D51BECAAEA00E43C79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		179848E01BECAAF400E43C79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		179848E11BECAAF900E43C79 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				179848E51BECABC700E43C79 /* LeaderBoardViewController.h */,
+				179848E61BECABC700E43C79 /* LeaderBoardViewController.m */,
+				17AF93431BECBEC400ABB887 /* AddRecordViewController.h */,
+				17AF93441BECBEC400ABB887 /* AddRecordViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		179848E21BECAAFE00E43C79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17AF93401BECB15F00ABB887 /* Player.h */,
+				17AF93411BECB15F00ABB887 /* Player.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		318FF3CA8BEFAFE40B734BEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9CF6A78B028303FCC296B /* libPods-Tournament.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87B976ED78361AD97F7BA88C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				303160A7FB29665802E8DD4F /* Pods-Tournament.debug.xcconfig */,
+				B8137B8E125BD2DD99747D64 /* Pods-Tournament.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179848B61BECAAEA00E43C79 /* Tournament */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179848DA1BECAAEA00E43C79 /* Build configuration list for PBXNativeTarget "Tournament" */;
+			buildPhases = (
+				374947041377E962AC8ADAF2 /* Check Pods Manifest.lock */,
+				179848B31BECAAEA00E43C79 /* Sources */,
+				179848B41BECAAEA00E43C79 /* Frameworks */,
+				179848B51BECAAEA00E43C79 /* Resources */,
+				EE92740A222BA6ABDA7F34C7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tournament;
+			productName = Tournament;
+			productReference = 179848B71BECAAEA00E43C79 /* Tournament.app */;
+			productType = "com.apple.product-type.application";
+		};
+		179848CF1BECAAEA00E43C79 /* TournamentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179848DD1BECAAEA00E43C79 /* Build configuration list for PBXNativeTarget "TournamentTests" */;
+			buildPhases = (
+				179848CC1BECAAEA00E43C79 /* Sources */,
+				179848CD1BECAAEA00E43C79 /* Frameworks */,
+				179848CE1BECAAEA00E43C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179848D21BECAAEA00E43C79 /* PBXTargetDependency */,
+			);
+			name = TournamentTests;
+			productName = TournamentTests;
+			productReference = 179848D01BECAAEA00E43C79 /* TournamentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179848AF1BECAAEA00E43C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Perso;
+				TargetAttributes = {
+					179848B61BECAAEA00E43C79 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = DBKA5FNH4C;
+					};
+					179848CF1BECAAEA00E43C79 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 179848B61BECAAEA00E43C79;
+					};
+				};
+			};
+			buildConfigurationList = 179848B21BECAAEA00E43C79 /* Build configuration list for PBXProject "Tournament" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 179848AE1BECAAEA00E43C79;
+			productRefGroup = 179848B81BECAAEA00E43C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179848B61BECAAEA00E43C79 /* Tournament */,
+				179848CF1BECAAEA00E43C79 /* TournamentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		179848B51BECAAEA00E43C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179848C81BECAAEA00E43C79 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179848CE1BECAAEA00E43C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		374947041377E962AC8ADAF2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE92740A222BA6ABDA7F34C7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tournament/Pods-Tournament-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179848B31BECAAEA00E43C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AF93421BECB15F00ABB887 /* Player.m in Sources */,
+				179848C01BECAAEA00E43C79 /* AppDelegate.m in Sources */,
+				179848E71BECABC700E43C79 /* LeaderBoardViewController.m in Sources */,
+				179848BD1BECAAEA00E43C79 /* main.m in Sources */,
+				17AF93451BECBEC400ABB887 /* AddRecordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179848CC1BECAAEA00E43C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179848D71BECAAEA00E43C79 /* TournamentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		179848D21BECAAEA00E43C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179848B61BECAAEA00E43C79 /* Tournament */;
+			targetProxy = 179848D11BECAAEA00E43C79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		179848D81BECAAEA00E43C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		179848D91BECAAEA00E43C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		179848DB1BECAAEA00E43C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303160A7FB29665802E8DD4F /* Pods-Tournament.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Tournament/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		179848DC1BECAAEA00E43C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8137B8E125BD2DD99747D64 /* Pods-Tournament.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Tournament/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		179848DE1BECAAEA00E43C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TournamentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tournament.app/Tournament";
+			};
+			name = Debug;
+		};
+		179848DF1BECAAEA00E43C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TournamentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tournament.app/Tournament";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179848B21BECAAEA00E43C79 /* Build configuration list for PBXProject "Tournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179848D81BECAAEA00E43C79 /* Debug */,
+				179848D91BECAAEA00E43C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179848DA1BECAAEA00E43C79 /* Build configuration list for PBXNativeTarget "Tournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179848DB1BECAAEA00E43C79 /* Debug */,
+				179848DC1BECAAEA00E43C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179848DD1BECAAEA00E43C79 /* Build configuration list for PBXNativeTarget "TournamentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179848DE1BECAAEA00E43C79 /* Debug */,
+				179848DF1BECAAEA00E43C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179848AF1BECAAEA00E43C79 /* Project object */;
+}
